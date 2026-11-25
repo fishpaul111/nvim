@@ -1,0 +1,46 @@
+//  When porting, use colors for named values and ansi for apps that need the 16 terminal colors in order.
+{
+  "name": "Lukin",
+  "color_space": "sRGB",
+  "colors": {
+    "background": "#000000",
+    "foreground": "#F8F8F0",
+    "panel": "#1E1E1E",
+    "cursorline": "#101010",
+    "selection": "#404040",
+    "comment": "#666666",
+    "gray": "#696969",
+    "red": "#FF5252",
+    "pink": "#FF3366",
+    "green": "#49F571",
+    "mint": "#47FFA0",
+    "yellow": "#F3FF52",
+    "bright_yellow": "#FFFF00",
+    "orange": "#FFAB40",
+    "blue": "#40C4FF",
+    "bright_blue": "#61CAFF",
+    "cyan": "#2ECEFF",
+    "bright_cyan": "#47DDFF",
+    "purple": "#DE3CD6",
+    "bright_purple": "#E040FB",
+    "white": "#FFFFFF"
+  },
+  "ansi": [
+    "background",
+    "red",
+    "green",
+    "yellow",
+    "blue",
+    "purple",
+    "cyan",
+    "foreground",
+    "gray",
+    "pink",
+    "mint",
+    "bright_yellow",
+    "bright_blue",
+    "bright_purple",
+    "bright_cyan",
+    "white"
+  ]
+}
