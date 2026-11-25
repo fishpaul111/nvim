@@ -1,12 +1,17 @@
 require("nvim-tree").setup({
+actions = {
+	open_file = {
+		quit_on_open = true,
+	},
+},
 renderer = {
 --note on icons:
 --in some terminals, some patched fonts cut off glyphs if not given extra space
 --either add extra space, disable icons, or change font
 	icons = {
 		show = {
-		file = true,
-		folder = true,
+		file = false,
+		folder = false,
 		folder_arrow = true,
 		git = true,
 		},
